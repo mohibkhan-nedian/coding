@@ -1,4 +1,4 @@
-package com.string;
+package com.String;
 
 public class GroupAnagrams {
 }
