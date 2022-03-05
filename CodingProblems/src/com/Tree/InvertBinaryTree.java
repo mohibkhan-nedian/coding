@@ -10,6 +10,8 @@ public class InvertBinaryTree {
     }
 
      void preNodeSwap(BinaryTree tree) {
+        // O(N) Time, O(d) depth space
+
         if(tree == null) {
             return;
         }
@@ -23,7 +25,8 @@ public class InvertBinaryTree {
 
 
     void BFSIterative(BinaryTree tree){
-
+        //O(N) Time
+        //O(N) space because for last level queue will contain all external nodes which is (n/2) or n
         LinkedList<BinaryTree> queue = new LinkedList<>();
 
         queue.add(tree);
