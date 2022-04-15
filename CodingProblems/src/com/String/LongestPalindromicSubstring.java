@@ -2,6 +2,7 @@ package com.String;
 
 public class LongestPalindromicSubstring {
 
+
     static String longestPalindromicSubstring(String s) {
 
         if (s == null || s.length() < 1) return "";

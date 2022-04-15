@@ -14,7 +14,7 @@ public class Permutations {
 
     //O(n*n*n!) Time complexity, O(n*n!) space complexity because there are n! perms each of length n so we need n*n! space to store them
 
-    //O(n*n*n!) Time complexity: as there are n! leave nodes and n*n! total nodes since each path contains n node
+    //O(n*n*n!) Time complexity: as there are n! leave nodes and n*n! total nodes since each path/branch from root to leaf contains n node
     //and each node has n work to do to remove element on line 34
     // Another way is to see how much time below for loop take, it take n time to remove element, then how many times getPermutations()
     //is called, it is called O(n*n!) time since there are O(n!) leave nodes and path to leave node has n nodes so (n*n!) total nodes in tree

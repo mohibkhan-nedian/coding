@@ -1,6 +1,7 @@
 package com.String;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class FirstDuplicateCharInString {
 
@@ -9,7 +10,7 @@ public class FirstDuplicateCharInString {
          // Time O(n)
         //Space O(1) because map can contain max 26 entries
 
-        HashMap<Character, Integer> map = new HashMap<>();
+        HashMap<Character, Integer> map = new LinkedHashMap<>();
         for(char c : string.toCharArray() ){
             map.put(c, map.getOrDefault(c, 0) + 1);
         }

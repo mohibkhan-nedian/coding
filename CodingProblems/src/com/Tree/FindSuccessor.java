@@ -13,7 +13,7 @@ public class FindSuccessor {
     }
 
     //O(h) or O(n) time for unbalance or O(logn) for balanced because we may have to go deep into one branch
-    //O(1) space
+    //O(1) space because no recursive calls as we use loop
     public BinaryTree findSuccessor(BinaryTree node) {
 
         // Inorder is LNR .

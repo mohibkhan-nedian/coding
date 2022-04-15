@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.TreeMap;
 
 public class MyCalendarEvent {
+    //
+    // Leetcode
 
     List<List<Integer>> calendar;
 
@@ -44,6 +46,7 @@ public class MyCalendarEvent {
 
 
         //if there is (5,6) and 2,3 in calendar and new interval = 3,4 then by using floor(3) we get 2, and by ceil(3) we get 5
+        //takes logn each
         Integer prev = calendar.floorKey(start);   //2
         Integer next = calendar.ceilingKey(start); // 5
 

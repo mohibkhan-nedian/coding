@@ -18,6 +18,10 @@ public class ShiftLinkedList {
 
         LinkedList p1 = head;
         LinkedList p2 = head;
+
+        int[] array = new int[2]{1, 2};
+        int[] aarray= {12, 12, 12};
+
         for(int i = 0 ; i < k ; i++){
             if(p1!=null)
                 p1 = p1.next;
